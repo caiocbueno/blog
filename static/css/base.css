@@ -11,7 +11,7 @@ margin-bottom:2rem;
 display:flex;
 }
 
-header h1 {
+header h1 a{
 color:red;
 text-decoration:none;
 }
@@ -33,8 +33,8 @@ margin-bottom:2rem;
 margin:0.5rem0;
 }
 
-.post-entry h2,
-.post-entry h2:visited{
+.post-entry h2 a,
+.post-entry h2 a:visited{
 color:blue;
 text-decoration:none;
 }
@@ -44,6 +44,6 @@ margin:0;
 font-weight:400;
 }
 
-.post-entry h2:hover{
+.post-entry h2 a:hover{
 color:red;
 }
